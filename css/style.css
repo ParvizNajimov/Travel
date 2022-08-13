@@ -1,0 +1,65 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.promo {
+    height: 802px;
+    background-image: url(../img/main_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 26px 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    list-style-type: none; /* Уберает точки у списка */
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: white;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.promo h1 {
+    font-size: 96px;
+    font-weight: 760;
+    color: white;
+margin-top: 129px;
+
+}
+.button {
+    width: 230px;
+    height: 50px;
+    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+    border-radius: 60px;
+    font-size: 14px;
+    border: none;
+    margin-top: 60px;
+    color: white;
+    
+}
+
+.button img {
+    margin-left: 10px;
+}
